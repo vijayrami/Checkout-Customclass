@@ -1,0 +1,26 @@
+{
+    "name": "vangard/module-checkoutcity",
+    "description": "Add New Class to city field in checkout",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        },
+        {
+            "name": "vijay rami",
+            "email": "vijaymrami@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Vangard\\Checkoutcity\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
